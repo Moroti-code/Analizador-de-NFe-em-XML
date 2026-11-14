@@ -210,7 +210,7 @@ diretamente com o autor para tratamento reservado antes da divulgação.
 
 ## 🧪 Como usar
 
-1. Baixe o arquivo `analisador-nfe.html`
+1. Baixe o arquivo `analisadornfe.html`
 2. Abra no navegador (duplo clique)
 3. Aceite o aviso legal no primeiro acesso
 4. Arraste um ou mais XMLs de NF-e
