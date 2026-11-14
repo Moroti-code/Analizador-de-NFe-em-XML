@@ -189,6 +189,15 @@ Relatos de falhas são **bem-vindos** e serão tratados com prioridade. A colabo
 
 ---
 
+### Política de segurança
+
+Vulnerabilidades de segurança são tratadas com **prioridade máxima**. 
+Se você identificar uma falha que possa comprometer dados, integridade 
+ou disponibilidade, **não abra issue pública** — entre em contato 
+diretamente com o autor para tratamento reservado antes da divulgação.
+
+---
+
 ## 🔒 Nota sobre o desenvolvimento
 
 - Desenvolvido em **14/11/2026**, em ambiente pessoal, **fora do horário de trabalho**
