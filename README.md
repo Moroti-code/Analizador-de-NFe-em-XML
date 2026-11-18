@@ -57,7 +57,7 @@ Cada versão publicada no GitHub corresponde a um marco documentado abaixo.
 
 > Todas as versões foram desenvolvidas em **14/11/2026**. A ordem abaixo é a **sequência de iteração** (do mais antigo ao mais recente da mesma data).
 
-v12.0.0 — Melhorias de cadastro e produtividade
+v12.0.0 — Melhorias de cadastro e produtividade - 17/11/2026
 
 Interface / layout:
 - Cards compactos (3 linhas) em modo retrato com ciclo de 3 cores
@@ -99,7 +99,7 @@ Configurações:
 - Padrão dos blocos (info/pagamento/emitente/tributário)
 - Site de pesquisa, URL personalizada
 
-v11.0.0 — Melhorias de usabilidade e produtividade
+v11.0.0 — Melhorias de usabilidade e produtividade - 17/11/2026
 
 - Ficha do emitente minimizável, recolhida por padrão
 - Consulta por chave de acesso (44 dígitos) com decodificação e link para Portal SEFAZ
