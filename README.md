@@ -57,6 +57,62 @@ Cada versão publicada no GitHub corresponde a um marco documentado abaixo.
 
 > Todas as versões foram desenvolvidas em **14/11/2026**. A ordem abaixo é a **sequência de iteração** (do mais antigo ao mais recente da mesma data).
 
+v12.0.0 — Melhorias de cadastro e produtividade
+
+Interface / layout:
+- Cards compactos (3 linhas) em modo retrato com ciclo de 3 cores
+- Detecção de modo: automático (largura < 700px), monitor ou celular
+- Zoom 75% compatível
+- Descrições longas não truncam (whitespace normalizado)
+- Unidade não quebra linha quando ≤3 caracteres
+
+Cadastro:
+- Marcar produto como cadastrado (checkbox, esmaece)
+- Botão "Desmarcar todos"
+- Origem: chip com tooltip (não copia)
+- CFOP movido para modo tributário
+- NCM e CEST formatados na tela (XXXX.XX.XX), crus na cópia
+- Numeração #1, #2 visível por linha
+- Último copiado destacado (amarelo) até nova cópia
+- CNPJ copiável no título da NF-e
+- Ação "copiar código+nome" removida (só 🔍)
+
+Cópia / formatação:
+- Valores copiados sem R$, com vírgula padrão (configurável para ponto)
+- Valor original (10 casas) preservado no tooltip
+
+Blocos:
+- Info (chave/natureza/destinatário) recolhido por padrão
+- Natureza movida para modo tributário
+- Pagamento compacto (só boleto/venc/valor no summary)
+- Emitente recolhido por padrão
+- Minimizar NF-e inteira (▼) e fechar individual (✕)
+
+Modo tributário (toggle):
+- Botão 🎯 na toolbar + config para padrão
+- FCI, IPI, PIS, COFINS, alíquotas, ICMS-ST, FCP por produto
+- Totais fiscais no rodapé
+
+Configurações:
+- Separador decimal (vírgula/ponto)
+- Modo de visualização
+- Padrão dos blocos (info/pagamento/emitente/tributário)
+- Site de pesquisa, URL personalizada
+
+v11.0.0 — Melhorias de usabilidade e produtividade
+
+- Ficha do emitente minimizável, recolhida por padrão
+- Consulta por chave de acesso (44 dígitos) com decodificação e link para Portal SEFAZ
+- Download individual de XML e impressão/PDF por NF-e
+- Campos copiáveis com 1 clique (sem ícone de copiar)
+- Ação "copiar código + nome" para pesquisa de imagem
+- Pesquisa configurável (Google Images, Google, Bing, Mercado Livre, custom)
+- Detecção de campo "marca" (custom tag ou obsCont)
+- Modo de visualização manual: monitor / celular / automático
+- Remoção de zeros à esquerda em códigos numéricos
+- O/CST: apenas a origem recebe cor; CST exibido como texto puro
+- Atualização do README e da versão
+
 ### v10.0.0 — 14/11/2026
 **Adição de disclaimers legais e proteção jurídica**
 - Banner bloqueante de aviso no primeiro acesso
